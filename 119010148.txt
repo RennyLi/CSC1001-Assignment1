@@ -1,0 +1,50 @@
+Q1:
+1.Prompt up the user to enter the final account value, the annual interest rate and the number of years.
+2.Use "eval" to convert the input string into a number. Assign the number to three variables: final 
+account value, annual interest rate, number of years.
+3.Use computation to calculate the initial deposit amount.
+4.Use "print" to output the result.
+
+Q2:
+1.Assign the input string to a variable: integer.
+2.Use length function to calcute the length of the string. Save the length to the variable: length.
+3.Use a for loop and range() to print out each element of the string individually.
+4.Because "print" will change line automatically. Therefore, every element of the string will be dispayed
+one by one in each line.
+
+Q3:
+1.Let the user to enter a positive number. 
+2.Use "eval" to convert the input string into a number. Assign the number to the variable: number.
+3.Let integer=0. Iterate from 0 to the correct answer.
+4.Use while True to avoid the condition to be meaningless. Enter the while loop.
+5.Use "if" to check whether the square of integer is larger than the number. If yes, just print it and 
+seperate each anser with space.
+6.Use "break" to stop the infinite while loop.
+7.If the "if" condition is wrong, then plus integer by 1, and continue to look for the correct answer.
+
+Q4:
+1.Use "try except" to consider the invalid input condition.
+2.Use "if" statement to check whether N is small or equal to 0. If yes, inform the user of invalid input.
+3.If the "if" condition is wrong, then enter the "else" statement.
+4.First print out the first head line:m   m+1   m**(m+1)
+5.Then use a for loop to go through each row and print out the corresponding three numbers.
+
+Q5:
+1.Use "try except" to consider the condition of invalid input.
+2.Use "count" to count the total number of prime numbers.
+3.Use for loop to examine whether the number is prime numbers. If the number can only be divided 
+by 1 and itself, then it is a prime number.
+4.If the number is a prime number, then plus "count" by one. Print out the number and use"\t" to sort
+it into a table.
+5.If the total number of prime numbers can be divided by 8. Then use"print" to change line. Because 
+the problem asks us to have at most 8 numbers each line.
+
+Q6:
+1.First inport built-in trigonometric functions from the math package.
+2.Let the user to enter the corresponding a, b, n.
+3.Use "eval" to convert the "a,b" into numbers and save them into variable a, b.
+4.Use "try except" to handle the possible inproper inputs of n, such as a string.
+5.Ask the user to specify a trigonometric fucntion and save it into the variable f.
+6.Define a function f and save the three trigonometric functions to it.
+7.Calculate each result using the given equation, and use "sum" to do the submission.
+8.Display the result.
